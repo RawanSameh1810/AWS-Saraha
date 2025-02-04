@@ -4,9 +4,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "build" : "npm i" ,
     "start": "node .",
     "star:dev" : "nodemon ." ,
     "start:prod": "SET NODE_ENV=prod && node ."
+  },
+  "engines":{
+    "node": "20.17.0"
   },
   "keywords": [],
   "author": "",
